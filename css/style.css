@@ -1,37 +1,42 @@
-
-.head {
-	padding: 20px 10px;
+main {
+	border: 1px solid;
+	padding: 0 10px;
+	display: inline-block;
 }
 
-h1 {
-  display: inline-block;
-  font-size: 40px;
-  margin: 10px 0 0 15px;
+.empty {
+	padding: 50px 150px;
+	margin: 10px 0;
+	border: 1px solid;
 }
 
-.imgContainer > img{
-  height: 50px;
-  float: left;
+ul {
+  list-style: none;
+  -webkit-padding-start: 0;
+  margin: 0;
 }
 
-.list {
-	margin: 70px 0 0 60px
+li {
+	border: 1px solid;
+	padding: 15px 5px;
+	float: left;
+  margin-right: 10px;
+	margin-top: 10px;
 }
 
 .item {
-	width: 670px;
-	margin-bottom: 60px;
+  border-style: double;
+  padding: 0 0 10px 10px;
+  margin: 0 10px 10px 0;
+  float: left
 }
 
-.item > img {
-  height: 100px;
-  float: left;
-}
-
-.item > p {
-	
-	margin: 0;
-	padding: 0;
+.inner {
+	margin-bottom: 10px;
+	padding: 10px 0 0 10px;
+	border-style: double;
+	float: left;
+	clear: both;
 }
 
 
