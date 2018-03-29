@@ -1,47 +1,57 @@
-main {
-	border: 1px solid;
-	padding: 0 10px;
-	display: inline-block;
-}
-
-.empty {
-	padding: 50px 150px;
-	margin: 10px 0;
-	border: 1px solid;
-}
-
-ul {
-  list-style: none;
-  -webkit-padding-start: 0;
+body {
   margin: 0;
+  padding: 0;
+
+}
+.container {
+  
+  padding: 20px;
 }
 
-li {
-	border: 1px solid;
-	padding: 15px 5px;
-	float: left;
-  margin-right: 10px;
-	margin-top: 10px;
+div p {
+  text-align: center;
+  font-size: 30px;
+  font-family: Padauk;
+  padding: 2px 0;
+  margin: 0;
+  color: #555;
+  width: inherit;
 }
 
-.item {
-  border-style: double;
-  padding: 0 0 10px 10px;
-  margin: 0 10px 10px 0;
-  float: left
+img {
+  height: 200px;
+  border-radius: 50%;
 }
 
-.inner {
-	margin-bottom: 10px;
-	padding: 10px 0 0 10px;
-	border-style: double;
-	float: left;
-	clear: both;
+p:hover {
+  cursor: pointer;
+  padding: 0;
+  font-size: 32px;
+  color: #9f5858;
 }
 
+.container div:nth-child(1){
+  margin-left: 540px;
+  padding: 0;
+}
 
+.container div:nth-child(1) p{
+  width: 200px;
+}
 
+.container div:nth-child(1) p:hover {
+  padding: 1px 0 0 0;
+}
 
+.container div:nth-child(2){
+  display: inline-block;
+  margin: 50px 0 0 250px;
+}
+
+.container div:nth-child(3){
+  display: inline-block;
+  margin: 50px 0 0 400px;
+}
 
 
 
